@@ -99,7 +99,7 @@ logic lives in `src/`.
 
 ## The app
 
-A small [Streamlit](https://streamlit.io) scorer (`app/streamlit_app.py`) with two modes:
+A small [Streamlit](https://credit-risk-default-engine.streamlit.app/) scorer (`app/streamlit_app.py`) with two modes:
 
 - **Look up an existing applicant** → see their **calibrated default risk**, the
   **approve/decline** call at t\*, and the **top-3 reasons**;
