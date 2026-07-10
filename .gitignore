@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Virtual environment ----
+.venv/
+venv/
+
+# ---- Data (too big for git; never commit raw CSVs) ----
+data/raw/
+# Ignore the big processed files but KEEP the small ones the app needs to run on
+# a fresh clone: the full validation set (11 MB, preserves the exact t*=0.09
+# decision) and the precomputed feature medians (a few KB, which replace the
+# 38 MB train.parquet for new-applicant mode).
+data/processed/*
+!data/processed/valid.parquet
+!data/processed/feature_medians.parquet
+!data/processed/sensitive.parquet
+
+# ---- Editor / tooling ----
+.claude/
+.vscode/
+.idea/
+
+# ---- Jupyter / OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Model / output artifacts ----
+*.pkl
+# Keep the trained models so the app works on a clone.
+*.joblib
+!models/*.joblib

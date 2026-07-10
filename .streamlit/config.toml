@@ -1,0 +1,11 @@
+# Base theme for the Credit-Risk Decision Engine.
+# The finer details (layered surfaces, custom sliders, segmented toggle, result
+# hero, animations) live in one CSS block inside app/streamlit_app.py — this file
+# only sets the colours Streamlit needs before that CSS loads.
+[theme]
+base = "dark"
+primaryColor = "#6366F1"            # indigo accent — focus states, active tab, sliders, CTA
+backgroundColor = "#0B0D12"         # base surface (darkest)
+secondaryBackgroundColor = "#141821" # card surface (one shade lighter)
+textColor = "#E6E9F0"
+font = "sans serif"

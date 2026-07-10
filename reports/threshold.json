@@ -1,0 +1,16 @@
+{
+  "calibration_method": "isotonic",
+  "brier_raw": 0.17423538641367975,
+  "brier_calibrated": 0.0658112551497079,
+  "lgd": 0.6,
+  "t_star": 0.09,
+  "approval_rate": 0.7024047607433783,
+  "expected_cost_at_tstar": 943832988.0,
+  "expected_cost_at_half": 1618007140.8000002,
+  "loss_reduction_vs_half": 0.4166694545406422,
+  "sensitivity_tstar": {
+    "cost ratio -50%": 0.12,
+    "baseline": 0.09,
+    "cost ratio +50%": 0.04
+  }
+}
